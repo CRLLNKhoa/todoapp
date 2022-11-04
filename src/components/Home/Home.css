@@ -1,0 +1,305 @@
+.wrapper-home {
+  background-image: linear-gradient(#252041, #1d1f25);
+  min-height: 800px;
+  margin-bottom: 80px;
+}
+
+.btn-home {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 20%;
+  transform: translateX(-20%);
+  right: 0;
+  color: white;
+  width: 40px;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-add {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 0;
+  color: white;
+  width: 40px;
+  font-size: 40px;
+  background-image: linear-gradient(to right, #8726f6, #b332f7);
+  border-radius: 999px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-setting {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 80%;
+  transform: translateX(-80%);
+  right: 0;
+  color: white;
+  width: 40px;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-bar-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #1d1f25;
+}
+
+.list-todo {
+  width: 100%;
+  padding: 20px;
+}
+
+.list-todo .title {
+  color: white;
+}
+
+.list-todo .date {
+  color: #7e41ff;
+}
+
+.item-todo {
+  display: flex;
+  margin: 10px 0;
+}
+
+.not-task{
+  margin: 40px;
+}
+
+.img-not-task{
+  width: 100%;
+}
+
+.card-todo {
+  display: flex;
+  align-items: center;
+  background-color: #292e3c;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 14px;
+  width: 100%;
+  position: relative;
+}
+
+.MuiAccordionSummary-content {
+  align-items: center;
+}
+
+.MuiAccordionSummary-root {
+  padding: 0!important;
+}
+
+.title-todo {
+  color: white; 
+  flex: 1;
+  margin-left: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.btn-delete{
+  background-color: white;
+  border-radius: 99px;
+  border: none; 
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  font-size: 20px;
+  color: red;
+  padding: 5px;
+  display: flex;
+}
+
+.design-icon {
+  background-color: #234ebb;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.food-icon {
+  background-color: #ff6d6e;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.work-icon {
+  background-color: #6457ff;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.workout-icon {
+  background-color: #f19731;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.alarm-icon {
+  background-color: white;
+  color: #e23f1b;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+}
+
+.time {
+  color: white;
+  width: 20%;
+}
+
+.complete {
+  background-color: #2765fa;
+}
+
+.complete > .work-icon {
+  background-color: white;
+  color: #6457ff;
+}
+
+.complete > .design-icon {
+  background-color: white;
+  color: #234ebb;
+}
+
+.create-todo {
+  padding: 20px;
+}
+
+.btn-back {
+  background: none;
+  color: white;
+  border: none;
+}
+
+.title-create {
+  color: white;
+}
+
+.input-title {
+  background-color: #292e3c;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+}
+
+.gr-btn {
+  margin: 10px;
+}
+
+.btn-type {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+  margin-right: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.select {
+  background-color: #2765fa;
+  border: 1px solid #2765fa;
+}
+
+.select-food {
+  background-color: #fe6d6e;
+  border: 1px solid #fe6d6e;
+}
+
+.select-work {
+  background-color: #6457ff;
+  border: 1px solid #6457ff;
+}
+
+.select-workout {
+  background-color: #f19731;
+  border: 1px solid #f19731;
+}
+
+.select-design {
+  background-color: #234ebc;
+  border: 1px solid #234ebc;
+}
+
+.select-alarm {
+  background-color: #2bc8d9;
+  border: 1px solid #2bc8d9;
+}
+
+.btn-create {
+  background-image: linear-gradient(to right, #782dd6, #b332f7);
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  border: transparent;
+  margin-top: 20px;
+}
+
+.set-time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.type{
+  font-size: 10px;
+  color: red;
+  position: absolute;
+}
+
+.input-time{
+  background-color: #292e3c;
+  border: none;
+  outline: none;
+  width: 45%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  font-size: 20px;
+  color: white;
+}
+
+.setting{
+  padding: 20px;
+
+}
+.title-setting{
+  color: white;
+  margin-bottom: 20px;
+}
+.btn-signout{
+  padding: 5px 20px;
+}
